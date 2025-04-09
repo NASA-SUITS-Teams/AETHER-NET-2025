@@ -1,9 +1,9 @@
 import sys
 import json
 import time
-from PyQt5.QtWidgets import QApplication, QWidget, QLabel, QVBoxLayout, QPushButton, QTextEdit, QTabWidget, QHBoxLayout
-from PyQt5.QtGui import QFont, QPixmap
-from PyQt5.QtCore import Qt, QTimer
+from pyqt5.QtWidgets import QApplication, QWidget, QLabel, QVBoxLayout, QPushButton, QTextEdit, QTabWidget, QHBoxLayout
+from pyqt5.QtGui import QFont, QPixmap
+from pyqt5.QtCore import Qt, QTimer
 
 # Load server data from JSON file
 json_path = r"C:\Users\jerem\SUITS-24-25\output_results.json"
